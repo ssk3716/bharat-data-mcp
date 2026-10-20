@@ -218,3 +218,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local diagnostic scripts and API response dumps
+check_connection.py
+httpx_diagnostic.py
+network_diagnostic.py
+tls_diagnostic.py
+test_live_mcp.py
+test-api-response.json
+p0.json
+p1.json
